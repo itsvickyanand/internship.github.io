@@ -1,0 +1,20 @@
+li{
+   margin-right: auto;
+}
+.sticky{
+    margin-top: 0px;
+   position: sticky;
+   top:0;
+   background-color: rgb(231, 229, 226);
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   color: rgb(120, 129, 134);
+}
+.nav1{
+    height:"10px";
+    font-size:x-small;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+.alignLeft{
+  margin-right: 15px;
+}
