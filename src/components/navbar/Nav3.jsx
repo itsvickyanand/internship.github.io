@@ -4,7 +4,7 @@ const style = {
   display: 'flex',
   flexDirection: 'row',
   listStyle: 'none',
-  backgroundColor: 'rgb(231, 229, 226)',
+  backgroundColor: 'white',
   height: '40px',
   marginTop: '-15px',
   alignItems: 'center',
@@ -14,46 +14,46 @@ const Nav3 = () => {
     <div>
       <ul style={style}>
         <li>
-          <button>New</button>
+          <button className="navbut">New</button>
         </li>
         <li>
-          <button>Furniture</button>
+          <button className="navbut">Furniture</button>
         </li>
         <li>
-          <button>Bathroom</button>
+          <button className="navbut">Bathroom</button>
         </li>
         <li>
-          <button>Kitchen</button>
+          <button className="navbut">Kitchen</button>
         </li>
         <li>
-          <button>Lighting</button>
+          <button className="navbut">Lighting</button>
         </li>
         <li>
-          <button>Outdoor</button>
+          <button className="navbut">Outdoor</button>
         </li>
         <li>
-          <button>Office</button>
+          <button className="navbut">Office</button>
         </li>
         <li>
-          <button>Contract</button>
+          <button className="navbut">Contract</button>
         </li>
         <li>
-          <button>Wellness</button>
+          <button className="navbut">Wellness</button>
         </li>
         <li>
-          <button>Decor</button>
+          <button className="navbut">Decor</button>
         </li>
         <li>
-          <button>Finishes</button>
+          <button className="navbut">Finishes</button>
         </li>
         <li>
-          <button>Construction</button>
+          <button className="navbut">Construction</button>
         </li>
         <li>
-          <button>Lifestyle</button>
+          <button className="navbut">Lifestyle</button>
         </li>
         <li>
-          <button>Shop</button>
+          <button className="navbut">Shop</button>
         </li>
       </ul>
     </div>

@@ -5,7 +5,7 @@ li{
     margin-top: 0px;
    position: sticky;
    top:0;
-   background-color: rgb(231, 229, 226);
+   background-color: white;
    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
    color: rgb(120, 129, 134);
 }
@@ -17,4 +17,39 @@ li{
 }
 .alignLeft{
   margin-right: 15px;
+  font-size: small;
+}
+.navbut{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  color:"#474C4E";
+  font-size:"16px";
+  font-style: "Roboto, Arial, sans-serif";
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+}
+.navbut:hover{
+  background-color: pink;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap: auto;
+  margin: auto;
+  column-gap: 15px;
+  row-gap: 15px;
 }

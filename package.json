@@ -1,6 +1,6 @@
 {
   "name": "internship-task-1",
-  "homepage": "https://internship.github.io/react-gh-pages",
+  "homepage": "https://internship.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "framer-motion": "^7.6.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

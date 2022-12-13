@@ -14,7 +14,14 @@ const Nav1 = () => {
     <div className="nav1">
       <ul style={style}>
         <li className="alignLeft">NETWORK</li>
-        <li className="alignLeft">UNITED KINGDOM / EN(&#xA3;)</li>
+        <li className="alignLeft">
+          <img
+            style={{ marginRight: '5px' }}
+            src="https://www.archiproducts.com/images/flags/gb.png"
+            alt=""
+          />
+          UNITED KINGDOM / EN(&#xA3;)
+        </li>
         <li className="alignLeft">PUBLISH PRODUCTS</li>
       </ul>
     </div>

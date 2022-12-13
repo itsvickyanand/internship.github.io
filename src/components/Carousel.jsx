@@ -29,6 +29,17 @@ function Carousel() {
     backgroundSize: '100%',
     marginTop: '-15px',
   }
+  useEffect(() => {
+    let Id = setInterval(() => {
+      if (state > 1) {
+        setState(0)
+        return clearInterval(Id)
+      } else {
+        setState((prev) => prev + 1)
+        return clearInterval(Id)
+      }
+    }, 2000)
+  }, [state])
 
   return (
     <div style={style}>
